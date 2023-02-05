@@ -26,4 +26,4 @@ fp-info-cache
 *.csv
 
 #Local Project Settings
-*.prl
+*.kicad_prl
