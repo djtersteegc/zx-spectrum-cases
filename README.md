@@ -6,6 +6,12 @@ After starting to build a couple ZX Spectrum clone boards, I needed to find a ca
 
 Since then Lee has also made STL's of his design available to purchase to print your own for a small fee, so if you have a larger printer and don't mind using a bit more filament (~418 gram) for a slightly beefier design that is another good option now.
 
+## Available Case Models
+
+[ZX 48 Spider](zx-48-spider/README.md)
+
+[Harlequin 48K Rev G](harlequin-48k-rev-g/README.md)
+
 ## The Design
 
 The design is four parts and uses about 185 grams of filament (20% cubic infill) and measures 219 x 136mm at the base.  I've printed mine in PLA. Approximate print times (at 80mm/s, Two Trees SP-5 running Klipper) and filament usage are as follows:
@@ -17,7 +23,7 @@ The design is four parts and uses about 185 grams of filament (20% cubic infill)
 | Keyboard Tray   | 3.6          | 46                    |
 | Keyboard Insert | 1.9          | 26                    |
 
-The base holds the PCB and it secured by two M3x4mm button head screws on the bottom. It is designed to sit on four 10mmx2mm rubber feet to elevate the board to the same height as a stock 48K case.  If you have a printer with great parts cooling you can print it without supports, but I print mine with supports on the rear holes to help make them a little cleaner. Each model has a slightly different base since the ports are different and I noticed not all PCB's have the mounting holes in the exact same location.
+The base holds the PCB and it secured by two M3x4mm button head screws in the bottom holes. It is designed to sit on four 10mmx2mm rubber feet to elevate the board to the same height as a stock 48K case.  If you have a printer with great parts cooling you can print it without supports, but I print mine with supports on the rear holes to help make them a little cleaner. Each model has a slightly different base since the ports are different and I noticed not all PCB's have the mounting holes in the exact same location.
 
 ![](images/base-top.jpg)
 
@@ -83,17 +89,11 @@ and the graphics file Doug Gabbard had put together for [WASD Keyboards](https:/
 
 https://github.com/jdgabbard/ZX-Spectrum-MX-Keycaps
 
-## Available Case Models
-
-[ZX 48 Spider](zx-48-spider/README.md)
-
-[Harlequin 48K Rev G](harlequin-48k-rev-g/README.md)
-
 ## The Design Process
 
 Designing cases by measuring your model with something like some calipers is a pain.  Since most of the boards I was building didn't have full [KiCad](https://www.kicad.org/) or other EDA design files avilable, I had to take the gerbers files, pull them into KiCad GerberViewer and then export a new KiCad PCB file.  From there it was a simple matter of placing footprints and 3D models of key components on the PCB in KiCad and then exporting a STEP file.
 
-![](images/kicad-step.JPG)
+![](images/kicad-step.jpg)
 
 My current 3D tool of choice is still [Design Spark Mechanical](https://www.rs-online.com/designspark/mechanical-software) (a free, cut down version of Ansys SpaceClaim).  Import the STEP file and then start modeling around it.  Once I had the intial design refined, it's simply a matter of swapping in new STEP files for a different board model, align in to the case walls, and then move the mounting holes and rear ports around as needed. 
 
