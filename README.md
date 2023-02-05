@@ -1,10 +1,10 @@
-After starting to build a couple ZX Spectrum clone boards, I needed to find a case solution.  The reproduction 48K rubber keyboard cases are nice, but a bit rich for my blood and I had also built up a mechanical keyboard using Superfo's Cherry MX compatible PCB that I wanted to use. After seeing  [Lee Smith's Mechtrum on YouTube](https://www.youtube.com/watch?v=O_FdXpOi2W4) that used the same keyboard, I set out to design my own case with the following goals:
+After starting to build a couple ZX Spectrum clone boards, I needed to find a case solution.  The reproduction 48K rubber keyboard cases are nice, but a bit rich for my blood and I had also built up a mechanical keyboard using Superfo's Cherry MX compatible PCB that I wanted to use. After seeing  [Lee Smith's Mechtrum on YouTube](https://www.youtube.com/watch?v=O_FdXpOi2W4) that used the same keyboard, I set out to design my own with the following goals:
 
 - Fits on a 220x220 Ender 3 class print bed in one piece
 - Easy to print (minimal supports) and optimized for a 0.4mm nozzle and 2mm layer heights
 - Minimal filament usage to print quickly and cheaply
 
-Since then Lee has also made STL's of his design available to purchase to print your own for a small fee, so if you have a larger printer and don't mind using a bit more filament (~418 gram) for a slightly beefier design that is another good option now.
+Since then Lee has also made STL's of his design available to purchase to print your own for a small fee, so if you have a larger printer and don't mind using a bit more filament (~418 grams) for a slightly beefier design that is another good option now.
 
 ## Available Case Models
 
@@ -23,7 +23,7 @@ The design is four parts and uses about 185 grams of filament (20% cubic infill)
 | Keyboard Tray   | 3.6          | 46                    |
 | Keyboard Insert | 1.9          | 26                    |
 
-The base holds the PCB and it secured by two M3x4mm button head screws in the bottom holes. It is designed to sit on four 10mmx2mm rubber feet to elevate the board to the same height as a stock 48K case.  If you have a printer with great parts cooling you can print it without supports, but I print mine with supports on the rear holes to help make them a little cleaner. Each model has a slightly different base since the ports are different and I noticed not all PCB's have the mounting holes in the exact same location.
+The base holds the PCB and is secured by two (or more) M3x4mm button head screws in the bottom holes. It is designed to sit on four 10mmx2mm rubber feet to elevate the board to the same height as a stock 48K case.  If you have a printer with great parts cooling you can print it without supports, but I print mine with supports on the rear holes to help make them a little cleaner. Each model has a slightly different base since the ports are different and I noticed not all PCB's have the mounting holes in the exact same location.
 
 ![](images/base-top.jpg)
 
@@ -31,7 +31,7 @@ The base holds the PCB and it secured by two M3x4mm button head screws in the bo
 
 ![](images/base-back.jpg)
 
-The cover is a snapfit design that secures with a M3x8mm taper head scew through the bottom of the case.  The cover is the same dimension across the different model, but has model specific text and in some cases features like a power LED. Print it face down without any supports.
+The cover is a snapfit design that secures with a M3x10mm taper head scew through the bottom of the case.  The cover is the same dimension across the different model, but has model specific text and in some cases features like a power LED. Print it face down without any supports.
 
 ![](images/cover-top.jpg)
 
@@ -51,7 +51,7 @@ Once bolted together, the keyboard assembly snaps to the lower front of the case
 
 ![](images/keyboard-assembled.jpg)
 
-If you're feeling extra thifty, or just like the look, you can also use the keyboard-tray-minimal option that doesn't have a bezel or insert, and instead bolts the keyboard to the tray from above with four M3x6 screws and nuts.  This one can be printed face down on the print bed without any supports.
+If you're feeling extra thifty, or just like the look, you can also use the keyboard-tray-minimal files that do not have a bezel or insert, and instead bolts the keyboard to the tray from above with four M3x6 screws and nuts.  This one can be printed face down on the print bed without any supports.
 
 ![](images/keyboard-minimal.jpg)
 

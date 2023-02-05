@@ -12,7 +12,7 @@ A standard 3mm LED did not reach through the top of the cover so I mounted it in
 
 ![](images/zx-48-spider-led-mounting.jpg)
 
-The read panel includes a hole to mount a 5mm push button reset switch.
+The rear panel includes a hole to mount a 5mm push button reset switch.
 
 https://www.aliexpress.us/item/2255799950576497.html
 
