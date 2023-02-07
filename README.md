@@ -12,6 +12,8 @@ Since then Lee has also made STL's of his design available to purchase to print 
 
 [Harlequin 48K Rev G](harlequin-48k-rev-g/README.md)
 
+[Harlequin 128 Issue 4A or 4B](harlequin-128-4A-or-4B/README.md)
+
 ## The Design
 
 The design is four parts and uses about 185 grams of filament (20% cubic infill) and measures 219 x 136mm at the base.  I've printed mine in PLA. Approximate print times (at 80mm/s, Two Trees SP-5 running Klipper) and filament usage are as follows:
